@@ -1,0 +1,9 @@
+by shak4;
+a = [10,20,30,40,50]
+b = [5,10,15,20,25,30,35,40,45,50,55,60,65,70]
+x = []
+for num in a:
+	if num in b:
+		x.append(num)
+    print (x)
+    
